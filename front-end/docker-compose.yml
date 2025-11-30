@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mvp_frontend
+    ports:
+      - "8080:8080"
+    environment:
+      - REACT_APP_API_URL=http://localhost:5000
+    networks:
+      - mvp_network
+    restart: unless-stopped
+
+networks:
+  mvp_network:
+    driver: bridge
