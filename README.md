@@ -16,10 +16,12 @@
 | [Definição do Problema](#-definição-do-problema)|
 | [Estrutura do Repositório](#-estrutura-do-repositório)|
 | [Tecnologias Utilizadas](#-tecnologias-utilizadas)|
+| [Arquitetura](#️-arquitetura)|
+| [Instruções para Execução do Projeto](#️-instruções-para-execução-do-projeto)|
+| [Vídeo](#️-vídeo)|
 | [Licença/License](#-licençalicense)|
 | [Referências](#-referências)|
 | [Agradecimentos](#-agradecimentos)|
-
 
 ## 📜 Definição do Problema
 
@@ -143,6 +145,12 @@ docker-compose up -d
 3. No navegador, abra:
 http://127.0.0.1:5000/apidocs
 
+
+## ▶️ Vídeo
+
+Apresentação do sistema disponível em:
+
+<a href="colocar.link.aqui"><img src="https://res.cloudinary.com/dujx0hv4e/image/upload/v1764784702/videos_igew2k.png"></a>
 
 ## 📋 Licença/License
 
